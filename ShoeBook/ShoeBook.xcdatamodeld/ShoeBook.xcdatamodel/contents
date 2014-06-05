@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comment" representedClassName="Comment" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="shoes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Shoe" inverseName="comments" inverseEntity="Shoe" syncable="YES"/>
+        <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="comments" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Shoe" representedClassName="Shoe">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary">
+            <userInfo/>
+        </attribute>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="shoes" inverseEntity="Comment" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="shoes" inverseEntity="User" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="favoriteColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favoriteShoe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoeSize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="users" inverseEntity="Comment" syncable="YES"/>
+        <relationship name="shoes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Shoe" inverseName="users" inverseEntity="Shoe" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Shoe" positionX="261" positionY="189" width="128" height="133"/>
+        <element name="User" positionX="261" positionY="198" width="128" height="163"/>
+        <element name="Comment" positionX="270" positionY="207" width="128" height="103"/>
+    </elements>
+</model>

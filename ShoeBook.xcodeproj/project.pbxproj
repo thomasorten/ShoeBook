@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457D49FC193F9E9A0025641E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D49FB193F9E9A0025641E /* Foundation.framework */; };
+		457D49FE193F9E9A0025641E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D49FD193F9E9A0025641E /* CoreGraphics.framework */; };
+		457D4A00193F9E9A0025641E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D49FF193F9E9A0025641E /* UIKit.framework */; };
+		457D4A02193F9E9A0025641E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D4A01193F9E9A0025641E /* CoreData.framework */; };
+		457D4A08193F9E9A0025641E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457D4A06193F9E9A0025641E /* InfoPlist.strings */; };
+		457D4A0A193F9E9A0025641E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A09193F9E9A0025641E /* main.m */; };
+		457D4A0E193F9E9A0025641E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A0D193F9E9A0025641E /* AppDelegate.m */; };
+		457D4A11193F9E9A0025641E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457D4A0F193F9E9A0025641E /* Main.storyboard */; };
+		457D4A14193F9E9A0025641E /* ShoeBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A12193F9E9A0025641E /* ShoeBook.xcdatamodeld */; };
+		457D4A17193F9E9A0025641E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A16193F9E9A0025641E /* MasterViewController.m */; };
+		457D4A1A193F9E9A0025641E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A19193F9E9A0025641E /* DetailViewController.m */; };
+		457D4A1C193F9E9A0025641E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457D4A1B193F9E9A0025641E /* Images.xcassets */; };
+		457D4A23193F9E9A0025641E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D4A22193F9E9A0025641E /* XCTest.framework */; };
+		457D4A24193F9E9A0025641E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D49FB193F9E9A0025641E /* Foundation.framework */; };
+		457D4A25193F9E9A0025641E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D49FF193F9E9A0025641E /* UIKit.framework */; };
+		457D4A26193F9E9A0025641E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457D4A01193F9E9A0025641E /* CoreData.framework */; };
+		457D4A2E193F9E9A0025641E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457D4A2C193F9E9A0025641E /* InfoPlist.strings */; };
+		457D4A30193F9E9A0025641E /* ShoeBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A2F193F9E9A0025641E /* ShoeBookTests.m */; };
+		457D4A47193FA57A0025641E /* Shoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A46193FA57A0025641E /* Shoe.m */; };
+		457D4A4A193FA57A0025641E /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A49193FA57A0025641E /* Comment.m */; };
+		457D4A4D193FA9B90025641E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A4C193FA9B90025641E /* User.m */; };
+		457D4A50193FAB120025641E /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A4F193FAB120025641E /* ProfileViewController.m */; };
+		457D4A53193FCA9F0025641E /* ShoeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 457D4A52193FCA9F0025641E /* ShoeCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457D4A27193F9E9A0025641E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457D49F0193F9E9A0025641E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457D49F7193F9E9A0025641E;
+			remoteInfo = ShoeBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457D49F8193F9E9A0025641E /* ShoeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457D49FB193F9E9A0025641E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		457D49FD193F9E9A0025641E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		457D49FF193F9E9A0025641E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		457D4A01193F9E9A0025641E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		457D4A05193F9E9A0025641E /* ShoeBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoeBook-Info.plist"; sourceTree = "<group>"; };
+		457D4A07193F9E9A0025641E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		457D4A09193F9E9A0025641E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		457D4A0B193F9E9A0025641E /* ShoeBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoeBook-Prefix.pch"; sourceTree = "<group>"; };
+		457D4A0C193F9E9A0025641E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		457D4A0D193F9E9A0025641E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		457D4A10193F9E9A0025641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		457D4A13193F9E9A0025641E /* ShoeBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoeBook.xcdatamodel; sourceTree = "<group>"; };
+		457D4A15193F9E9A0025641E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		457D4A16193F9E9A0025641E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		457D4A18193F9E9A0025641E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		457D4A19193F9E9A0025641E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		457D4A1B193F9E9A0025641E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		457D4A21193F9E9A0025641E /* ShoeBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457D4A22193F9E9A0025641E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		457D4A2B193F9E9A0025641E /* ShoeBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoeBookTests-Info.plist"; sourceTree = "<group>"; };
+		457D4A2D193F9E9A0025641E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		457D4A2F193F9E9A0025641E /* ShoeBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoeBookTests.m; sourceTree = "<group>"; };
+		457D4A45193FA57A0025641E /* Shoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shoe.h; path = ../Shoe.h; sourceTree = "<group>"; };
+		457D4A46193FA57A0025641E /* Shoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shoe.m; path = ../Shoe.m; sourceTree = "<group>"; };
+		457D4A48193FA57A0025641E /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comment.h; path = ../Comment.h; sourceTree = "<group>"; };
+		457D4A49193FA57A0025641E /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = ../Comment.m; sourceTree = "<group>"; };
+		457D4A4B193FA9B90025641E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
+		457D4A4C193FA9B90025641E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
+		457D4A4E193FAB120025641E /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		457D4A4F193FAB120025641E /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		457D4A51193FCA9F0025641E /* ShoeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoeCollectionViewCell.h; sourceTree = "<group>"; };
+		457D4A52193FCA9F0025641E /* ShoeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoeCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457D49F5193F9E9A0025641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457D49FE193F9E9A0025641E /* CoreGraphics.framework in Frameworks */,
+				457D4A02193F9E9A0025641E /* CoreData.framework in Frameworks */,
+				457D4A00193F9E9A0025641E /* UIKit.framework in Frameworks */,
+				457D49FC193F9E9A0025641E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457D4A1E193F9E9A0025641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457D4A23193F9E9A0025641E /* XCTest.framework in Frameworks */,
+				457D4A26193F9E9A0025641E /* CoreData.framework in Frameworks */,
+				457D4A25193F9E9A0025641E /* UIKit.framework in Frameworks */,
+				457D4A24193F9E9A0025641E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457D49EF193F9E9A0025641E = {
+			isa = PBXGroup;
+			children = (
+				457D4A03193F9E9A0025641E /* ShoeBook */,
+				457D4A29193F9E9A0025641E /* ShoeBookTests */,
+				457D49FA193F9E9A0025641E /* Frameworks */,
+				457D49F9193F9E9A0025641E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457D49F9193F9E9A0025641E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457D49F8193F9E9A0025641E /* ShoeBook.app */,
+				457D4A21193F9E9A0025641E /* ShoeBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457D49FA193F9E9A0025641E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457D49FB193F9E9A0025641E /* Foundation.framework */,
+				457D49FD193F9E9A0025641E /* CoreGraphics.framework */,
+				457D49FF193F9E9A0025641E /* UIKit.framework */,
+				457D4A01193F9E9A0025641E /* CoreData.framework */,
+				457D4A22193F9E9A0025641E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		457D4A03193F9E9A0025641E /* ShoeBook */ = {
+			isa = PBXGroup;
+			children = (
+				457D4A4B193FA9B90025641E /* User.h */,
+				457D4A4C193FA9B90025641E /* User.m */,
+				457D4A48193FA57A0025641E /* Comment.h */,
+				457D4A49193FA57A0025641E /* Comment.m */,
+				457D4A45193FA57A0025641E /* Shoe.h */,
+				457D4A46193FA57A0025641E /* Shoe.m */,
+				457D4A0C193F9E9A0025641E /* AppDelegate.h */,
+				457D4A0D193F9E9A0025641E /* AppDelegate.m */,
+				457D4A0F193F9E9A0025641E /* Main.storyboard */,
+				457D4A51193FCA9F0025641E /* ShoeCollectionViewCell.h */,
+				457D4A52193FCA9F0025641E /* ShoeCollectionViewCell.m */,
+				457D4A4E193FAB120025641E /* ProfileViewController.h */,
+				457D4A4F193FAB120025641E /* ProfileViewController.m */,
+				457D4A15193F9E9A0025641E /* MasterViewController.h */,
+				457D4A16193F9E9A0025641E /* MasterViewController.m */,
+				457D4A18193F9E9A0025641E /* DetailViewController.h */,
+				457D4A19193F9E9A0025641E /* DetailViewController.m */,
+				457D4A1B193F9E9A0025641E /* Images.xcassets */,
+				457D4A12193F9E9A0025641E /* ShoeBook.xcdatamodeld */,
+				457D4A04193F9E9A0025641E /* Supporting Files */,
+			);
+			path = ShoeBook;
+			sourceTree = "<group>";
+		};
+		457D4A04193F9E9A0025641E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457D4A05193F9E9A0025641E /* ShoeBook-Info.plist */,
+				457D4A06193F9E9A0025641E /* InfoPlist.strings */,
+				457D4A09193F9E9A0025641E /* main.m */,
+				457D4A0B193F9E9A0025641E /* ShoeBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		457D4A29193F9E9A0025641E /* ShoeBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				457D4A2F193F9E9A0025641E /* ShoeBookTests.m */,
+				457D4A2A193F9E9A0025641E /* Supporting Files */,
+			);
+			path = ShoeBookTests;
+			sourceTree = "<group>";
+		};
+		457D4A2A193F9E9A0025641E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457D4A2B193F9E9A0025641E /* ShoeBookTests-Info.plist */,
+				457D4A2C193F9E9A0025641E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457D49F7193F9E9A0025641E /* ShoeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457D4A33193F9E9A0025641E /* Build configuration list for PBXNativeTarget "ShoeBook" */;
+			buildPhases = (
+				457D49F4193F9E9A0025641E /* Sources */,
+				457D49F5193F9E9A0025641E /* Frameworks */,
+				457D49F6193F9E9A0025641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoeBook;
+			productName = ShoeBook;
+			productReference = 457D49F8193F9E9A0025641E /* ShoeBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457D4A20193F9E9A0025641E /* ShoeBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457D4A36193F9E9A0025641E /* Build configuration list for PBXNativeTarget "ShoeBookTests" */;
+			buildPhases = (
+				457D4A1D193F9E9A0025641E /* Sources */,
+				457D4A1E193F9E9A0025641E /* Frameworks */,
+				457D4A1F193F9E9A0025641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457D4A28193F9E9A0025641E /* PBXTargetDependency */,
+			);
+			name = ShoeBookTests;
+			productName = ShoeBookTests;
+			productReference = 457D4A21193F9E9A0025641E /* ShoeBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457D49F0193F9E9A0025641E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Orten, Thomas";
+				TargetAttributes = {
+					457D4A20193F9E9A0025641E = {
+						TestTargetID = 457D49F7193F9E9A0025641E;
+					};
+				};
+			};
+			buildConfigurationList = 457D49F3193F9E9A0025641E /* Build configuration list for PBXProject "ShoeBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457D49EF193F9E9A0025641E;
+			productRefGroup = 457D49F9193F9E9A0025641E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457D49F7193F9E9A0025641E /* ShoeBook */,
+				457D4A20193F9E9A0025641E /* ShoeBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457D49F6193F9E9A0025641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457D4A1C193F9E9A0025641E /* Images.xcassets in Resources */,
+				457D4A08193F9E9A0025641E /* InfoPlist.strings in Resources */,
+				457D4A11193F9E9A0025641E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457D4A1F193F9E9A0025641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457D4A2E193F9E9A0025641E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457D49F4193F9E9A0025641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457D4A4D193FA9B90025641E /* User.m in Sources */,
+				457D4A50193FAB120025641E /* ProfileViewController.m in Sources */,
+				457D4A1A193F9E9A0025641E /* DetailViewController.m in Sources */,
+				457D4A17193F9E9A0025641E /* MasterViewController.m in Sources */,
+				457D4A47193FA57A0025641E /* Shoe.m in Sources */,
+				457D4A53193FCA9F0025641E /* ShoeCollectionViewCell.m in Sources */,
+				457D4A0E193F9E9A0025641E /* AppDelegate.m in Sources */,
+				457D4A0A193F9E9A0025641E /* main.m in Sources */,
+				457D4A14193F9E9A0025641E /* ShoeBook.xcdatamodeld in Sources */,
+				457D4A4A193FA57A0025641E /* Comment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457D4A1D193F9E9A0025641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457D4A30193F9E9A0025641E /* ShoeBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457D4A28193F9E9A0025641E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457D49F7193F9E9A0025641E /* ShoeBook */;
+			targetProxy = 457D4A27193F9E9A0025641E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		457D4A06193F9E9A0025641E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457D4A07193F9E9A0025641E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		457D4A0F193F9E9A0025641E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457D4A10193F9E9A0025641E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		457D4A2C193F9E9A0025641E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457D4A2D193F9E9A0025641E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		457D4A31193F9E9A0025641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		457D4A32193F9E9A0025641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457D4A34193F9E9A0025641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoeBook/ShoeBook-Prefix.pch";
+				INFOPLIST_FILE = "ShoeBook/ShoeBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		457D4A35193F9E9A0025641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoeBook/ShoeBook-Prefix.pch";
+				INFOPLIST_FILE = "ShoeBook/ShoeBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		457D4A37193F9E9A0025641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShoeBook.app/ShoeBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoeBook/ShoeBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShoeBookTests/ShoeBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		457D4A38193F9E9A0025641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShoeBook.app/ShoeBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoeBook/ShoeBook-Prefix.pch";
+				INFOPLIST_FILE = "ShoeBookTests/ShoeBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457D49F3193F9E9A0025641E /* Build configuration list for PBXProject "ShoeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457D4A31193F9E9A0025641E /* Debug */,
+				457D4A32193F9E9A0025641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457D4A33193F9E9A0025641E /* Build configuration list for PBXNativeTarget "ShoeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457D4A34193F9E9A0025641E /* Debug */,
+				457D4A35193F9E9A0025641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		457D4A36193F9E9A0025641E /* Build configuration list for PBXNativeTarget "ShoeBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457D4A37193F9E9A0025641E /* Debug */,
+				457D4A38193F9E9A0025641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		457D4A12193F9E9A0025641E /* ShoeBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				457D4A13193F9E9A0025641E /* ShoeBook.xcdatamodel */,
+			);
+			currentVersion = 457D4A13193F9E9A0025641E /* ShoeBook.xcdatamodel */;
+			path = ShoeBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 457D49F0193F9E9A0025641E /* Project object */;
+}
